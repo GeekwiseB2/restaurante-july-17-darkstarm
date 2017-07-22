@@ -1,1 +1,73 @@
 /*Header Styles*/
+.navbar-inverse{
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: rgba(51, 51, 51, .5);
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  background-color: rgba(51, 51, 51, .25);
+  color: #F8512F;
+}
+
+/*Carousel styles*/
+
+.item{
+  height: 425px;
+  background-size: cover;
+  background-position: cover;
+}
+
+.carousel-flex{
+  height: 425px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption{
+  margin-bottom: 45px;
+}
+
+#wood-background{
+  background-image: url('../img/wood-2.jpg');
+}
+
+#carousel-logo{
+  height: 250px;
+}
+
+#seating-background{
+  background-image: url('../img/restaurant-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+}
+
+#farm-background{
+  background-image: url('../img/farm-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+}
+
+button.btn-warning {
+  background-color: #f8512f;
+  border-color: #f8512f;
+}
+
+button.btn-warning:hover{
+  background-color: #d34326;
+  border-color: #d34326;
+}
