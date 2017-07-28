@@ -159,6 +159,22 @@ button.btn-warning:hover{
 
 .menu-text{
   color: #fff;
-  text-shadow: 1px 1px 2px #313;
-  font-size: 7em;
+  font-size: 5em;
+}
+
+.food {
+  background-color: #fff;
+  height: 500px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a{
+  color: #f8512f;
+  text-transform: uppercase;
+}
+
+.nav-tabs.nav-justified>.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: transparent;
 }
