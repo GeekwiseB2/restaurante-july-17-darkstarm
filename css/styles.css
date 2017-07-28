@@ -110,11 +110,24 @@ button.btn-warning:hover{
 .contact-style{
   background-color: #f8512f;
   color: #fff;
+  font-size: 16px;
 }
 
 .contact-style h1{
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
+}
+
+.lato-text{
+  font-family: 'Lato', serif;
+}
+
+.form-style{
+  background-color: #ff6938;
+  border: 1px solid #fff;
+  margin: 50px;
+  padding: 25px 15px;
+  width: 400px;
 }
