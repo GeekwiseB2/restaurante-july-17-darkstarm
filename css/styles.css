@@ -120,6 +120,11 @@ button.btn-warning:hover{
   font-weight: 900;
 }
 
+.contact-style h4{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .lato-text{
   font-family: 'Lato', serif;
 }
@@ -130,4 +135,10 @@ button.btn-warning:hover{
   margin: 50px;
   padding: 25px 15px;
   width: 400px;
+}
+
+.form-button{
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
 }
