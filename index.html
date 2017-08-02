@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top"><!--Nav Start-->
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,54 +25,56 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Our Story</a></li>
-	        <li><a href="#">Review</a></li>
-					<li><a href="#">Menu</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#our-story">Our Story</a></li>
+	        <li><a href="#review">Review</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#contact">Contact Us</a></li>
 				</ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav><!--Nav end-->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	  </ol>
+	<div id="home">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
 
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
-	    <div class="item active" id="wood-background"><!--Slide 1-->
-				<div class="carousel-flex">
-	      	<img src="img/logo-01.png" alt="restaurante logo" class="img-responsive center-block" id="carousel-logo">
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active" id="wood-background"><!--Slide 1-->
+					<div class="carousel-flex">
+		      	<img src="img/logo-01.png" alt="restaurante logo" class="img-responsive center-block" id="carousel-logo">
+					</div>
 				</div>
-			</div>
-	    <div class="item" id="seating-background"><!--Slide 2-->
-				<div class="carousel-caption">
-		      <h1>Eat Local</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ex fuga amet voluptate accusantium aspernatur tempore maxime, earum quidem a reiciendis magnam repudiandae unde assumenda nemo dicta ducimus dolor doloremque.</p>
-		      <button class="btn btn-lg btn-warning">Learn More</button>
-	      </div>
-	    </div>
-			<div class="item" id="farm-background"><!--Slide 3-->
-				<div class="carousel-caption">
-		      <h1>From Farm To Table</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ex fuga amet voluptate accusantium aspernatur tempore maxime, earum quidem a reiciendis magnam repudiandae unde assumenda nemo dicta ducimus dolor doloremque.</p>
-		      <button class="btn btn-lg btn-warning">Browse Gallery</button>
-	      </div>
-	    </div>
-	  </div>
-		<!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
+		    <div class="item" id="seating-background"><!--Slide 2-->
+					<div class="carousel-caption">
+			      <h1>Eat Local</h1>
+			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ex fuga amet voluptate accusantium aspernatur tempore maxime, earum quidem a reiciendis magnam repudiandae unde assumenda nemo dicta ducimus dolor doloremque.</p>
+			      <button class="btn btn-lg btn-warning">Learn More</button>
+		      </div>
+		    </div>
+				<div class="item" id="farm-background"><!--Slide 3-->
+					<div class="carousel-caption">
+			      <h1>From Farm To Table</h1>
+			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ex fuga amet voluptate accusantium aspernatur tempore maxime, earum quidem a reiciendis magnam repudiandae unde assumenda nemo dicta ducimus dolor doloremque.</p>
+			      <button class="btn btn-lg btn-warning">Browse Gallery</button>
+		      </div>
+		    </div>
+		  </div>
+			<!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
 	</div>
 	<div class="container" id="our-story">
 		<div class="row">
@@ -103,128 +105,128 @@
 	<!--End review section -->
 	<!--Start menu section  -->
 	<div class="container-fluid" id="menu">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<h1 class="text-center menu-text lobster-text">Menu</h1>
-				<div> <!-- Menu Wrapper -->
-				<!-- Nav tabs -->
-					<ul class="nav nav-tabs nav-justified" role="tablist">
-						<li role="presentation" class="active"><a href="#appetizer" aria-controls="appetizer" role="tab" data-toggle="tab">Appetizers</a></li>
-						<li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">Lunch</a></li>
-						<li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">Dinner</a></li>
-						<li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">Dessert</a></li>
-					</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<h1 class="text-center menu-text lobster-text">Menu</h1>
+					<div> <!-- Menu Wrapper -->
+					<!-- Nav tabs -->
+						<ul class="nav nav-tabs nav-justified" role="tablist">
+							<li role="presentation" class="active"><a href="#appetizer" aria-controls="appetizer" role="tab" data-toggle="tab">Appetizers</a></li>
+							<li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">Lunch</a></li>
+							<li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">Dinner</a></li>
+							<li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">Dessert</a></li>
+						</ul>
 
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane active fade in" id="appetizer">
-							<!-- appetizer menu wrapper -->
-							<div class="col-sm-3 food"><!--item 1 starts -->
-								<img src="img/dip.jpg" alt="Dip" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dip</h3>
-								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
-							</div><!--item 1 ends -->
-							<div class="col-sm-3 food"><!--item 2 starts -->
-								<img src="img/eggplant.jpg" alt="Eggplant a la grose" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Eggplant</h3>
-								<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
-							</div><!--item 2 ends -->
-							<div class="col-sm-3 food"><!--item 3 starts -->
-								<img src="img/meat.jpg" alt="Meat" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Meat</h3>
-								<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
-							</div><!--item 3 ends -->
-							<div class="col-sm-3 food"><!--item 4 starts -->
-								<img src="img/bruschetta.jpg" alt="Good bread" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Bruschetta</h3>
-								<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
-							</div><!--item 4 ends -->
-							<!-- appetizer menu wrapper ends -->
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active fade in" id="appetizer">
+								<!-- appetizer menu wrapper -->
+								<div class="col-sm-3 food"><!--item 1 starts -->
+									<img src="img/dip.jpg" alt="Dip" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dip</h3>
+									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
+								</div><!--item 1 ends -->
+								<div class="col-sm-3 food"><!--item 2 starts -->
+									<img src="img/eggplant.jpg" alt="Eggplant a la grose" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Eggplant</h3>
+									<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
+								</div><!--item 2 ends -->
+								<div class="col-sm-3 food"><!--item 3 starts -->
+									<img src="img/meat.jpg" alt="Meat" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Meat</h3>
+									<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
+								</div><!--item 3 ends -->
+								<div class="col-sm-3 food"><!--item 4 starts -->
+									<img src="img/bruschetta.jpg" alt="Good bread" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Bruschetta</h3>
+									<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
+								</div><!--item 4 ends -->
+								<!-- appetizer menu wrapper ends -->
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="lunch">
+							<!-- lunch menu wrapper -->
+								<div class="col-sm-3 food"><!--item 1 starts -->
+									<img src="img/lunch1.jpg" alt="Burger" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Lunch 1</h3>
+									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
+								</div><!--item 1 ends -->
+								<div class="col-sm-3 food"><!--item 2 starts -->
+									<img src="img/lunch2.jpg" alt="Pannini" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Lunch 2</h3>
+									<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
+								</div><!--item 2 ends -->
+								<div class="col-sm-3 food"><!--item 3 starts -->
+									<img src="img/lunch3.jpg" alt="BBQ sandwich" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Lunch 3</h3>
+									<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
+								</div><!--item 3 ends -->
+								<div class="col-sm-3 food"><!--item 4 starts -->
+									<img src="img/lunch4.jpg" alt="Veggie burger" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Lunch 4</h3>
+									<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
+								</div><!--item 4 ends -->
+							<!-- lunch menu wrapper ends -->
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="dinner">
+								<!-- dinner menu wrapper -->
+								<div class="col-sm-3 food"><!--item 1 starts -->
+									<img src="img/dinner1.jpg" alt="Dip" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dinner 1</h3>
+									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
+								</div><!--item 1 ends -->
+								<div class="col-sm-3 food"><!--item 2 starts -->
+									<img src="img/dinner2.jpg" alt="Eggplant a la grose" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dinner 2</h3>
+									<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
+								</div><!--item 2 ends -->
+								<div class="col-sm-3 food"><!--item 3 starts -->
+									<img src="img/dinner3.jpg" alt="Meat" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dinner 3</h3>
+									<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
+								</div><!--item 3 ends -->
+								<div class="col-sm-3 food"><!--item 4 starts -->
+									<img src="img/dinner4.jpg" alt="Good bread" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dinner 4</h3>
+									<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
+								</div><!--item 4 ends -->
+								<!-- dinner menu wrapper ends -->
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="dessert">
+								<!-- appetizer menu wrapper -->
+								<div class="col-sm-3 food"><!--item 1 starts -->
+									<img src="img/dessert1.jpg" alt="Dip" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dessert 1</h3>
+									<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
+								</div><!--item 1 ends -->
+								<div class="col-sm-3 food"><!--item 2 starts -->
+									<img src="img/dessert2.jpg" alt="Eggplant a la grose" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dessert 2</h3>
+									<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
+								</div><!--item 2 ends -->
+								<div class="col-sm-3 food"><!--item 3 starts -->
+									<img src="img/dessert3.jpg" alt="Meat" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dessert 3</h3>
+									<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
+								</div><!--item 3 ends -->
+								<div class="col-sm-3 food"><!--item 4 starts -->
+									<img src="img/dessert4.jpg" alt="Good bread" class="img-responsive img-thumbnail">
+									<h3 class="text-center">Dessert 4</h3>
+									<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
+								</div><!--item 4 ends -->
+								<!-- appetizer menu wrapper ends -->
+							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="lunch">
-						<!-- lunch menu wrapper -->
-							<div class="col-sm-3 food"><!--item 1 starts -->
-								<img src="img/lunch1.jpg" alt="Burger" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Lunch 1</h3>
-								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
-							</div><!--item 1 ends -->
-							<div class="col-sm-3 food"><!--item 2 starts -->
-								<img src="img/lunch2.jpg" alt="Pannini" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Lunch 2</h3>
-								<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
-							</div><!--item 2 ends -->
-							<div class="col-sm-3 food"><!--item 3 starts -->
-								<img src="img/lunch3.jpg" alt="BBQ sandwich" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Lunch 3</h3>
-								<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
-							</div><!--item 3 ends -->
-							<div class="col-sm-3 food"><!--item 4 starts -->
-								<img src="img/lunch4.jpg" alt="Veggie burger" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Lunch 4</h3>
-								<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
-							</div><!--item 4 ends -->
-						<!-- lunch menu wrapper ends -->
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="dinner">
-							<!-- dinner menu wrapper -->
-							<div class="col-sm-3 food"><!--item 1 starts -->
-								<img src="img/dinner1.jpg" alt="Dip" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dinner 1</h3>
-								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
-							</div><!--item 1 ends -->
-							<div class="col-sm-3 food"><!--item 2 starts -->
-								<img src="img/dinner2.jpg" alt="Eggplant a la grose" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dinner 2</h3>
-								<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
-							</div><!--item 2 ends -->
-							<div class="col-sm-3 food"><!--item 3 starts -->
-								<img src="img/dinner3.jpg" alt="Meat" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dinner 3</h3>
-								<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
-							</div><!--item 3 ends -->
-							<div class="col-sm-3 food"><!--item 4 starts -->
-								<img src="img/dinner4.jpg" alt="Good bread" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dinner 4</h3>
-								<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
-							</div><!--item 4 ends -->
-							<!-- dinner menu wrapper ends -->
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="dessert">
-							<!-- appetizer menu wrapper -->
-							<div class="col-sm-3 food"><!--item 1 starts -->
-								<img src="img/dessert1.jpg" alt="Dip" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dessert 1</h3>
-								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptates vel sapiente iure perferendis natus veritatis, dolores facere! Laboriosam corporis adipisci odit incidunt natus ab eligendi voluptatem facere ratione possimus.</p>
-							</div><!--item 1 ends -->
-							<div class="col-sm-3 food"><!--item 2 starts -->
-								<img src="img/dessert2.jpg" alt="Eggplant a la grose" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dessert 2</h3>
-								<p class="text-justify">Suscipit repudiandae, dolorem non optio labore eaque libero ex fuga nesciunt voluptatum laudantium similique consequatur, tempora atque illo nam amet numquam vitae praesentium? Eum inventore libero, cum explicabo, minus velit.</p>
-							</div><!--item 2 ends -->
-							<div class="col-sm-3 food"><!--item 3 starts -->
-								<img src="img/dessert3.jpg" alt="Meat" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dessert 3</h3>
-								<p class="text-justify">Excepturi soluta, iste illo tempora accusamus, dolorum, at ullam, explicabo eos qui quas aut repudiandae sapiente harum quos ex. Iusto perferendis dolorem odit eum doloremque sequi cum, nisi hic ex.</p>
-							</div><!--item 3 ends -->
-							<div class="col-sm-3 food"><!--item 4 starts -->
-								<img src="img/dessert4.jpg" alt="Good bread" class="img-responsive img-thumbnail">
-								<h3 class="text-center">Dessert 4</h3>
-								<p class="text-justify">Laborum eligendi suscipit quis, dignissimos debitis ipsum impedit tempore ex, praesentium voluptas officia necessitatibus, corrupti cum omnis recusandae et? Fugit, veniam. Inventore pariatur aliquam similique, odio consequatur labore repellat distinctio.</p>
-							</div><!--item 4 ends -->
-							<!-- appetizer menu wrapper ends -->
-						</div>
-					</div>
 
-				</div><!--Menu Wrapper ends -->
+					</div><!--Menu Wrapper ends -->
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 	<!--End menu section  -->
 
 	<!--Contact Section Start  -->
-	<div class="container-fluid contact-style lato-text">
+	<div class="container-fluid contact-style lato-text" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="container col-sm-12">
